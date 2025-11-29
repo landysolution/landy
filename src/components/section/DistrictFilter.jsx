@@ -21,7 +21,7 @@ const DistrictFilter = () => {
         {districts.map((dist, index) => (
           <div
             key={index}
-            className={`whitespace-nowrap rounded-3xl px-5 py-4 ${
+            className={`whitespace-nowrap rounded-3xl px-5 py-3 ${
               selected === dist ? "bg-[#3873F2]" : "bg-[#011426]"
             }`}
             onClick={() => setSelected(dist)}
